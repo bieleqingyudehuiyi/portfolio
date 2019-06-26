@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gallery.apps.GalleryConfig',  # 创建一个app进行注册，说明路径
+    'blog',  #注册blog app
 ]
 
 MIDDLEWARE = [
