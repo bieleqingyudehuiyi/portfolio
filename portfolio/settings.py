@@ -119,3 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL = '/media/'  # 媒体文件网址
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # 文件夹路径和本级的项目路径合并到一起，媒体文件路径
